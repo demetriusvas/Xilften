@@ -1,0 +1,65 @@
+/* Fonte aplicada a página inteira*/
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(20, 20, 20);
+}
+
+/* Estilo do Titulo na barra de navegação */
+.topnav h1{
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: red;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+/* Estilo da barra de navegação */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Estilo dos links da barra de navegação */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Adiciona o sublinhado vermelho dos links da barra de navegação */
+.topnav a:hover {
+    border-bottom: 2px solid red; 
+}
+
+.topnav > a.active {
+	border-bottom: 2px solid red; 
+}
+
+/* Titulo Principal de cada tipo */
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Grid com 3 colunas e 2 linhas*/
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 321px 321px 321px;
+    grid-template-rows: 476px 476px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+/* Animação das imagens dos filmes/seriados */
+.grid-container > div:hover {
+    transform: scale(1.05);
+}
